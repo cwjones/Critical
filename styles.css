@@ -1,0 +1,263 @@
+body {background-color: #FFFFFF;
+	    color: #000000;
+	    margin: 0;
+	    padding: 0;}
+
+p 	{font-family: Arial, sans-serif;
+	   font-size: 13px;}
+	 
+a 	{color: #000000;
+	   font-family: Arial, sans-serif;
+	   font-size: 13px;
+	   text-decoration: none;}
+a:hover {color: #29abe2;}
+
+h1 	{font-family: Arial, sans-serif;
+	   font-size: 24px;}
+		 
+h3 	{font-family: Arial, sans-serif;
+	   font-size: 18px;}
+		 
+.banner {width: 1024px;
+		     height: 110px;
+		     margin: 0 auto;}
+
+.left {float: left; 
+	     width: 220px;
+	     height: 110px;}
+.leftcontent {width: 220px; 
+              height: 110px; 
+			        display: table-cell; 
+			        vertical-align: middle;
+			        text-align: center; }
+
+.center {width: auto;
+		     height: 110px;}
+.centercontent {width: auto; 
+                height: 110px;
+				        padding-left: 30px;
+							  display: table-cell; 
+							  vertical-align: middle;
+							  text-align: center; }
+
+.right {float: right;
+		width: 150px;
+		height: 110px;}
+.rightcontent {width: 180px; 
+               height: 110px; 
+			   display: table-cell; 
+			   vertical-align: middle;
+			   text-align: center;}
+			   
+.nav {width: 1024px;
+	  height: 45px;
+	  margin: 0 auto;
+	  text-align: center;
+	  padding-top: 15px;}
+		 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: Black;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #29abe2;
+    width: 300px;
+		z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+		border-top: 1px solid #FFF;
+		border-left: 1px solid #FFF;
+		border-right: 1px solid #FFF;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:last-child {border-bottom: 1px solid #FFF;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	   
+.slideshow-container {
+  max-width: 1024px;
+  max-height: 354px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -50px;
+  padding: 14px;
+  color: #29abe2;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 0 0 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 0 0 0 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+.text {
+  color: #f2f2f2;
+  padding-left: 75px;
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  text-align: left;
+}
+
+div.text a 	{color: #000000;
+						 font-family: Arial, sans-serif;
+						 font-size: 18px;
+					   text-decoration: none;}
+div.text a:link {color: #fff;}
+div.text a:hover {color: #fff;}
+div.text a:visited {color: #fff;}
+
+.fadeslider {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+		
+div.blog {width: 1024px;
+          height: 62px;
+					margin: 0 auto;
+          position: relative;
+          background-color: #29abe2;
+          color: #ffffff;
+          font-family: Arial, sans-serif;
+          -webkit-backface-visibility: hidden;
+}
+div.blog p {margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%; 
+            transform: translate(-50%, -50%);
+            font-size: 22px;}
+
+div.blog a:link {color: #fff;}
+div.blog a:hover {color: #fff;}
+div.blog a:visited {color: #fff;}
+
+.blogposts {width:1024px;
+			height: 138px;
+			margin: 0 auto;}
+.blogpost1 {width: 256px;
+            height: 138px;
+            padding-top: 40px;
+            background-image: url("images/home-featured1.jpg");
+            background-repeat: no-repeat;
+            text-align: center;}
+.blogpost1 a:link {color: #fff;}
+.blogpost1 a:hover {color: #fff;}
+.blogpost1 a:visited {color: #fff;}
+
+.blogpost2 {width: 256px;
+            height: 138px;
+            padding-top: 40px;
+            background-image: url("images/home-featured2.jpg");
+            background-repeat: no-repeat;
+            text-align: center;}
+.blogpost2 a:link {color: #fff;}
+.blogpost2 a:hover {color: #fff;}
+.blogpost2 a:visited {color: #fff;}
+
+.blogpost3 {width: 256px;
+            height: 138px;
+            padding-top: 40px;
+            background-image: url("images/home-featured3.jpg");
+            background-repeat: no-repeat;
+            text-align: center;}
+.blogpost3 a:link {color: #fff;}
+.blogpost3 a:hover {color: #fff;}
+.blogpost3 a:visited {color: #fff;}
+
+.blogpost4 {width: 256px;
+            height: 138px;
+            padding-top: 40px;
+            background-image: url("images/home-featured4.jpg");
+            background-repeat: no-repeat;
+            text-align: center;}
+.blogpost4 a:link {color: #fff;}
+.blogpost4 a:hover {color: #fff;}
+.blogpost4 a:visited {color: #fff;}
+
+.fade {opacity: 1;
+       transition: opacity .15s ease-in-out;
+       -moz-transition: opacity .15s ease-in-out;
+       -webkit-transition: opacity .15s ease-in-out;}
+
+.fade:hover {opacity: 0.5;}
+
+div.copyright {width: 1024px;
+               height: 40px;
+               position: relative;
+               background-color: #29abe2;
+               font-size: 12px;
+               color: #fff;
+               font-family: Arial, sans-serif;
+							 margin: 0 auto;}
+div.copyright p {margin: 0;
+                 position: absolute;
+                 float: left;
+                 top: 50%;
+                 transform: translate(0, -50%);
+                 padding-left: 30px;
+                 font-size: 12px;}
+div.copyright a:link {color: #fff;
+                      font-size: 12px;}
+div.copyright a:hover {color: #fff;
+                       font-size: 12px;}
+div.copyright a:visited {color: #fff;
+                         font-size: 12px;}
